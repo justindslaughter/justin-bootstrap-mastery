@@ -27,3 +27,7 @@
 .nav-item:hover {
   text-decoration:underline;
 }
+
+.navbar-nav .nav-item .nav-link.active {
+  font-weight: bold;
+}
