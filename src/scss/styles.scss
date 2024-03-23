@@ -24,10 +24,43 @@
 
 // Custom styles:
 
-.nav-item:hover {
-  text-decoration:underline;
+h1 {
+  font-family: "Cinzel", serif;
+  font-weight: 700;
+  font-style: bold;
 }
 
-.navbar-nav .nav-item .nav-link.active {
+.jumbotron {
+  background: url(../img/pirate-ship.jpg) no-repeat center;
+  background-size: cover;
+  padding: 8rem;
+  text-align: center;
+  color: white;
+  font-family: "Cinzel", serif;
+}
+
+.homepage, .article, .photo-carousel {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-family: Helvetica, sans-serif;
+}
+
+footer {
+  background-color: teal;
+  color: black;
+  text-align: center;
+  padding: 1rem;
+}
+
+.figure-caption-1 {
   font-weight: bold;
+}
+
+.figure-caption-2 {
+  font-style: italic;
+}
+
+.carousel-caption {
+  background-color: rgb(0 0 0 / 50%);
+  padding: .5rem;
 }

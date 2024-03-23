@@ -5,50 +5,78 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
 </head>
 
 <body>
   <!-- Content starts here -->
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Pirate Cove</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Article</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Photos</a>
-          </li>
-          <!--
-          <li class="nav-item">
-            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-          </li>
-           -->
-        </ul>
+  <div class="container">
+    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Pirate Cove</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="article.html">Article</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="photos.html">Photos</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
-  <!--I'm currently working here...-->
-  <div class="my-0">
-    <div class="p-5 text-center bg-body-tertiary">
-      <div class="container py-5">
-        <h1 class="text-body-emphasis">Full-width jumbotron</h1>
-        <p class="col-lg-8 mx-auto lead">
-          This takes the basic jumbotron above and makes its background edge-to-edge with a <code>.container</code> inside to align content. Similar to above, it's been recreated with built-in grid and utility classes.
-        </p>
+    </nav>
+    
+    <header class="jumbotron">
+    <h1 style="font-size: 65px">SHIP'S LOG</h1>
+      <h4>A diary by Capt. Crit 'Red Beard' McGillicutty</h4>
+    </header>
+    
+    <div class="homepage">
+    <h2>Thar be monsters in the sea</h2>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card">
+          <img src="img/kraken01.jpg" class="card-img-top" alt="Kraken attacking a pirate ship">
+          <div class="card-body">
+            <h5 class="card-title">Bonecracker</h5>
+            <p class="card-text">Holystone port Cat o'nine tails smartly shrouds Privateer come about grapple heave to bilge water. Clipper furl carouser avast sloop fore skysail smartly six pounders Shiver me timbers.</p>
+          </div>
+        </div>
       </div>
+        <div class="col">
+          <div class="card">
+            <img src="img/kraken02.jpg" class="card-img-top" alt="Kraken attacking a pirate ship">
+            <div class="card-body">
+              <h5 class="card-title">Cursed Wanderer</h5>
+              <p class="card-text">Scourge of the seven seas Shiver me timbers hands no prey, no pay interloper bucko prow heave down red ensign gally. Marooned line lookout grog blossom spyglass coffer gaff keelhaul swing the lead cackle fruit.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="img/kraken03.jpg" class="card-img-top" alt="Kraken attacking a pirate ship">
+            <div class="card-body">
+              <h5 class="card-title">Spectral Sawfish</h5>
+              <p class="card-text">Davy Jones' Locker black spot ye rigging wherry pressgang nipper execution dock swing the lead aft. Run a rig tack pink cog wench square-rigged gibbet galleon Gold Road gunwalls.</p>
+            </div>
+          </div>
+        </div>
     </div>
+    </div>
+    
+    <footer>
+    <p>Site by Justin Slaughter</p>
+    </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
   </div>
-  <p>Testing: 1, 2, 3, 4</p>
-
-  <!-- Closing scripts here -->
-  <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
